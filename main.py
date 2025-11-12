@@ -7,6 +7,7 @@ import pandas as pd
 
 app = FastAPI(title="API CRUD de Produtos")
 
+
 produtos_df = pd.DataFrame(columns=["id", "nome", "categoria", "preco"])
 
 class Produto(BaseModel):
@@ -19,7 +20,6 @@ class Produto(BaseModel):
 @app.get("/produtos")
 def listar_produtos():
     return produtos_df.to_dict(orient="records")
-
 
 @app.get("/produtos/{id}")
 def obter_produto(id : int):
@@ -56,4 +56,3 @@ def deletar_produto(id : int):
         raise HTTPException(status_code=404, detail="Produto não encontrado")
     produtos_df = produtos_df.drop(index[0])
     return {"mensagem": "Produto removido com sucesso!"}
-
