@@ -1,0 +1,32 @@
+id,nome,categoria,preco
+2,Caneta,Papelaria,3.2
+3,Lápis,Papelaria,1.5
+4,Borracha,Papelaria,2.0
+5,Apontador,Papelaria,2.5
+6,Tesoura,Papelaria,7.0
+7,Cola,Papelaria,5.5
+8,Grampeador,Escritório,15.0
+9,Grampo,Escritório,4.0
+10,Pasta,Escritório,8.0
+11,Régua,Papelaria,3.0
+12,Marcador,Escritório,6.5
+13,Post-it,Escritório,9.0
+14,Envelope,Escritório,2.8
+15,Caixa de Clips,Escritório,3.5
+16,Calculadora,Eletrônicos,45.0
+17,Mouse,Eletrônicos,60.0
+18,Teclado,Eletrônicos,90.0
+19,Monitor,Eletrônicos,600.0
+20,Pendrive,Eletrônicos,35.0
+21,HD Externo,Eletrônicos,250.0
+22,Cabo USB,Eletrônicos,15.0
+23,Carregador,Eletrônicos,40.0
+24,Fone de Ouvido,Eletrônicos,50.0
+25,Pilha,Utilidades,8.5
+26,Luminária,Utilidades,35.0
+27,Agenda,Papelaria,20.0
+28,Caneca,Utilidades,18.0
+29,Suporte para Celular,Acessórios,25.0
+30,Tripé,Acessórios,80.0
+31,Notebook,Eletrônicos,3500.0
+32,Notebook,Eletrônicos,3500.0
